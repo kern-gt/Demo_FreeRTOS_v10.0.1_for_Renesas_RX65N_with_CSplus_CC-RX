@@ -1,7 +1,6 @@
-# FreeRTOS Ver10.0.0 DemoProject for Renesas RX65N (CS+,CC-RX)
+# FreeRTOS Ver10.0.1 DemoProject for Renesas RX65N (CS+,CC-RX)
 
-Ver1.00版(2018/3/11)
-
+## LED点滅サンプルVer1.00
 　このデモはFreeRTOSv10.0.1をRenesas RX65Nマイコン用に移植したものです。評価ボード上の2つのLEDを2タスクでLチカするだけの簡単なサンプルです。そのままビルドしてデバッグモードで動きます。
  
 　最近ルネサスから発売された[Target Board for RX family](https://www.renesas.com/ja-jp/products/software-tools/boards-and-kits/cpu-mpu-boards/rx-family-target-board.html)(RX65N)を手に入れたのでFreeRTOSを動かしてみました。
@@ -32,7 +31,7 @@ CPUボード上のLED0(PD6)を1Hz、LED1(PD7)を5Hzで点滅させる2つのタ�
 　クロック発生回路とポート初期化をスマートコンフィグレータで設定しています。 
 FreeRTOSではカーネルタイマにコンペアマッチタイマ0(CMT0),コンテキストスイッチにソフトウェア割込み(SWINT)を使用しているので、その周辺機能は使用しないでください。カーネルタイマなどはソース改変すればCMT0以外のタイマも使えるはずです。
 
-## ファイル構成
+## プロジェクト作成法
 　自力でFreeRTOSプロジェクトを作るためのメモになります。サンプルコードの`main.c`と`ApplicationHook.c`は公式サンプルコードを参考に作成しました。
 
   1. CS+でプロジェクト新規作成します。ここで自分はビルド設定(CC-RXのプロパティ)で文字コードをUTF-8に変更してしまいますが、SHIFT-JISのままでいけるかどうかは未検証です。ちなみにUTF-8の変更箇所はコンパイル・オプションで2か所、アセンブル・オプションで1か所です。
