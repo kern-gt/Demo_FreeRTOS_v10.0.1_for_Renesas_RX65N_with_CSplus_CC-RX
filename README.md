@@ -1,5 +1,7 @@
 # FreeRTOS Ver10.0.0 DemoProject for Renesas RX65N (CS+,CC-RX)
 
+Ver1.00版(2018/3/11)
+
 　このデモはFreeRTOSv10.0.1をRenesas RX65Nマイコン用に移植したものです。評価ボード上の2つのLEDを2タスクでLチカするだけの簡単なサンプルです。そのままビルドしてデバッグモードで動きます。
  
 　最近ルネサスから発売された[Target Board for RX family](https://www.renesas.com/ja-jp/products/software-tools/boards-and-kits/cpu-mpu-boards/rx-family-target-board.html)(RX65N)を手に入れたのでFreeRTOSを動かしてみました。
