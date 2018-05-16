@@ -3,6 +3,8 @@
 ## LED点滅サンプルVer1.01
 　このデモはFreeRTOSv10.0.1をRenesas RX65Nマイコン用に移植したものです。評価ボード上の2つのLEDを2タスクでLチカするだけの簡単なサンプルです。そのままビルドしてデバッグモードで動きます。
  
+ ![ledtika](https://user-images.githubusercontent.com/30795467/40149437-91176870-59ae-11e8-9d5e-211828bee9f4.gif)
+ 
 　最近ルネサスから発売された[Target Board for RX family](https://www.renesas.com/ja-jp/products/software-tools/boards-and-kits/cpu-mpu-boards/rx-family-target-board.html)(RX65N)を手に入れたのでFreeRTOSを動かしてみました。
 秋葉原の[マルツ](https://www.marutsu.co.jp/pc/i/953239/)で2,980円（税抜き）で売られています。デバッガのE2Liteがボード上に搭載されてこの値段は安いと思います。
 
