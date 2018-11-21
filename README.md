@@ -1,5 +1,8 @@
 # FreeRTOS Ver10.0.1 DemoProject for Renesas RX65N (CS+,CC-RX)
-
+## 追記:最新カーネル版プロジェクト作成しました。
+ 2018/11/21 FreeRTOSv10.1.1のリンクはこちらから
+ 
+ https://github.com/kern-gt/Demo_FreeRTOS_v10.1.1_for_Renesas_RX65N_with_CSplus_CC-RX
 ## LED点滅サンプルVer1.01
 　このデモはFreeRTOSv10.0.1をRenesas RX65Nマイコン用に移植したものです。評価ボード上の2つのLEDを2タスクでLチカするだけの簡単なサンプルです。そのままビルドしてデバッグモードで動きます。
  
